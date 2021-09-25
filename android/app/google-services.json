@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245270902861",
+    "project_id": "imageuploader-be2c9",
+    "storage_bucket": "imageuploader-be2c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245270902861:android:066850084c123920fbc404",
+        "android_client_info": {
+          "package_name": "com.prahen.image_uploader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245270902861-q7npn29j8bkjpks693j4tr365l1751bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ1-ZP_kg9R9a7IBuhyeXFeQu2LhxpbSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245270902861-q7npn29j8bkjpks693j4tr365l1751bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
