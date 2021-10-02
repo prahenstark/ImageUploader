@@ -1,16 +1,24 @@
-# image_uploader
+<h1 align="center"><i>Image Uploader In Flutter</i></h1>
 
-A new Flutter application.
+<hr>
 
-## Getting Started
+<!-- <hr> -->
 
-This project is a starting point for a Flutter application.
+<h2 align="center">About</h2>
+<p align="center"><i>It is an Image Uploader gallery which tracks your address from which you're uploading using Flutter and Image picker. I used packages from <code>pub.dev</code>.</i>
+  
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## Required Improvements ✅➕
+1. Improve the Ui. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Want to collaborate and enhance this project?
+- Fork the repository. 🍴
+- Create a issue in the current repository about your issue. 💭
+- Add your enhancement. ✔️
+- Create a Pull Request with proper comments and description. ☑️
+- Wait for your PR to get merged after reviewing. 🕰️
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<p align="center"> Built by Prahen Parija </p>
+
