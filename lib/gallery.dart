@@ -4,16 +4,7 @@ import 'package:flutter/material.dart';
 final _firestore = FirebaseFirestore.instance;
 
 
-// class MyApp extends StatelessWidget {
-//   // This widget is the root of your application.
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       title: 'Flutter Demo',
-//       home: MyHomePage(),
-//     );
-//   }
-// }
+
 
 
 class GalleryPage extends StatefulWidget {
@@ -41,10 +32,6 @@ class _GalleryPageState extends State<GalleryPage> {
           ],
         ),
       ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: getImage,
-      //   child: Icon(Icons.add_a_photo),
-      // ),
     );
   }
 
@@ -152,89 +139,3 @@ class Record {
   @override
   String toString() => "Record<$location:$url:$store:$latitude:$longitude>";
 }
-
-
-// Future<Map<String, double>> _getLocation() async {
-// //var currentLocation = <String, double>{};
-//   Map<String,double> currentLocation;
-//   try {
-//     currentLocation = await location.getLocation();
-//   } catch (e) {
-//     currentLocation = null;
-//   }
-//   setState(() {
-//      userLocation = currentLocation;
-//   });
-//   return currentLocation;
-//
-// }
-
-
-
-
-// getUserLocation() async {//call this async method from whereever you need
-//
-//   LocationData myLocation;
-//   String error;
-//   Location location = new Location();
-//   try {
-//     myLocation = await location.getLocation();
-//   } on PlatformException catch (e) {
-//     if (e.code == 'PERMISSION_DENIED') {
-//       error = 'please grant permission';
-//       print(error);
-//     }
-//     if (e.code == 'PERMISSION_DENIED_NEVER_ASK') {
-//       error = 'permission denied- please enable it from app settings';
-//       print(error);
-//     }
-//     myLocation = null;
-//   }
-//   currentLocation = myLocation;
-//   final coordinates = new Coordinates(
-//       myLocation.latitude, myLocation.longitude);
-//   var addresses = await Geocoder.local.findAddressesFromCoordinates(
-//       coordinates);
-//   var first = addresses.first;
-//   print(' ${first.locality}, ${first.adminArea},${first.subLocality}, ${first.subAdminArea},${first.addressLine}, ${first.featureName},${first.thoroughfare}, ${first.subThoroughfare}');
-//   return first;
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import 'package:firebase_core/firebase_core.dart';
-// import 'package:flutter/material.dart';
-//
-// import 'home.dart';
-//
-// void main() async {
-//   WidgetsFlutterBinding.ensureInitialized();
-//   await Firebase.initializeApp();
-//   runApp(MaterialApp(
-//     home: MyApp(),
-//     debugShowCheckedModeBanner: false,
-//   ));
-// }
-//
-// class MyApp extends StatefulWidget {
-//   @override
-//   _MyAppState createState() => _MyAppState();
-// }
-//
-// class _MyAppState extends State<MyApp> {
-//   @override
-//   Widget build(BuildContext context) {
-//     return HomePage();
-//   }
-// }
